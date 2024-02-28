@@ -1,0 +1,194 @@
+if[0.000000<=x1<=0.000000]
+ if[0.000000<x2<=4.000000]
+                 if[3.000000<=x2<=3.000000]
+                                     solution
+                 else
+                  no solution
+
+ elseif[-4.000000<=x2<0.000000]
+                 if[-1.000000<=x2<=-1.000000]
+                                     solution
+                 else
+                  no solution
+
+ else
+  no solution
+
+elseif[0.000000<x1<=4.000000]
+ if[0.000000<=x1<=2.000000]
+  if[1.000000<=x1<=1.000000]
+   if[0.000000<=x2<=0.000000]
+         solution
+   elseif[0.000000<x2<=4.000000]
+    if[2.000000<=x2<=2.000000]
+           solution
+    elseif[2.000000<x2<=4.000000]
+                   if[2.000000<=x2<=2.000000]
+                                         solution
+                   else
+                    no solution
+
+    elseif[0.000000<=x2<2.000000]
+           solution
+    else
+     no solution
+
+   elseif[-4.000000<=x2<0.000000]
+    if[-2.000000<=x2<=0.000000]
+           solution
+    else
+     no solution
+
+   else
+    no solution
+
+  elseif[1.000000<x1<=2.000000]
+                if[1.000000<=x1<=1.000000]
+                 if[0.000000<=x2<=0.000000]
+                                     solution
+                 elseif[0.000000<x2<=4.000000]
+                  if[2.000000<=x2<=2.000000]
+                                       solution
+                  elseif[2.000000<x2<=4.000000]
+                                 if[2.000000<=x2<=2.000000]
+                                                                     solution
+                                 else
+                                  no solution
+
+                  elseif[0.000000<=x2<2.000000]
+                                       solution
+                  else
+                   no solution
+
+                 elseif[-4.000000<=x2<0.000000]
+                  if[-2.000000<=x2<=0.000000]
+                                       solution
+                  else
+                   no solution
+
+                 else
+                  no solution
+
+                else
+                 no solution
+
+  elseif[0.000000<=x1<1.000000]
+                if[0.000000<=x1<=0.000000]
+                 if[0.000000<x2<=4.000000]
+                                 if[3.000000<=x2<=3.000000]
+                                                                     solution
+                                 else
+                                  no solution
+
+                 elseif[-4.000000<=x2<0.000000]
+                                 if[-1.000000<=x2<=-1.000000]
+                                                                     solution
+                                 else
+                                  no solution
+
+                 else
+                  no solution
+
+                else
+                 no solution
+
+  elseif[0.000000<=x2<=0.000000]
+       solution
+  elseif[0.000000<x2<=4.000000]
+       solution
+  elseif[-4.000000<=x2<0.000000]
+   if[-2.000000<=x2<=0.000000]
+         solution
+   else
+    no solution
+
+  else
+   no solution
+
+ else
+  no solution
+
+elseif[-4.000000<=x1<0.000000]
+ if[-2.000000<=x1<=0.000000]
+  if[-1.000000<=x1<=-1.000000]
+   if[0.000000<x2<=4.000000]
+                   if[3.000000<=x2<=3.000000]
+                                         solution
+                   else
+                    no solution
+
+   elseif[-4.000000<=x2<0.000000]
+                   if[-1.000000<=x2<=-1.000000]
+                                         solution
+                   else
+                    no solution
+
+   else
+    no solution
+
+  elseif[-1.000000<x1<=0.000000]
+                if[-1.000000<=x1<=-1.000000]
+                 if[0.000000<x2<=4.000000]
+                                 if[3.000000<=x2<=3.000000]
+                                                                     solution
+                                 else
+                                  no solution
+
+                 elseif[-4.000000<=x2<0.000000]
+                                 if[-1.000000<=x2<=-1.000000]
+                                                                     solution
+                                 else
+                                  no solution
+
+                 else
+                  no solution
+
+                else
+                 no solution
+
+  elseif[-2.000000<=x1<-1.000000]
+                if[-2.000000<=x1<=-2.000000]
+                 if[0.000000<=x2<=4.000000]
+                  if[2.000000<=x2<=2.000000]
+                                       solution
+                  elseif[2.000000<x2<=4.000000]
+                                       solution
+                  elseif[0.000000<=x2<2.000000]
+                                 if[0.000000<=x2<=0.000000]
+                                                                     solution
+                                 else
+                                  no solution
+
+                  else
+                   no solution
+
+                 else
+                  no solution
+
+                else
+                 no solution
+
+  elseif[0.000000<=x2<=0.000000]
+       solution
+  elseif[0.000000<x2<=4.000000]
+   if[2.000000<=x2<=4.000000]
+         solution
+   else
+    no solution
+
+  elseif[-4.000000<=x2<0.000000]
+   if[-2.000000<=x2<=0.000000]
+         solution
+   else
+    no solution
+
+  else
+   no solution
+
+ elseif[0.000000<=x2<=4.000000]
+     solution
+ else
+  no solution
+
+else
+ no solution

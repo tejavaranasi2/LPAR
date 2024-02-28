@@ -1,0 +1,22 @@
+
+\documentclass{article}
+\usepackage{forest}
+
+\begin{document}
+
+\begin{forest}
+  for tree={
+    circle,
+    draw,
+    minimum width=1.5em,
+    inner sep=2pt,
+    s sep=20pt,
+    l sep=20pt,
+  },
+  where n children=0{
+    tier=terminus,
+  }{},
+[{$*$}[edge label={node[midway, left] {[-4.000000<=x1<=0.000000]}}][{$*$}[edge label={node[midway, left] {[-4.000000<=x2<=0.000000]}}][{$leaf$}[edge label={node[midway, left] {}}][edge label={node[midway, right] {}}]][edge label={node[midway, right] {[0.000000<=x2<=4.000000]}}][{$leaf$}[edge label={node[midway, left] {}}][edge label={node[midway, right] {}}]]][edge label={node[midway, right] {[0.000000<=x1<=4.000000]}}][{$*$}[edge label={node[midway, left] {[-4.000000<=x2<=0.000000]}}][{$leaf$}[edge label={node[midway, left] {}}][edge label={node[midway, right] {}}]][edge label={node[midway, right] {[0.000000<=x2<=4.000000]}}][{$leaf$}[edge label={node[midway, left] {}}][edge label={node[midway, right] {}}]]]]
+\end{forest}
+
+\end{document}
